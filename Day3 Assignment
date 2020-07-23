@@ -1,0 +1,231 @@
+<!-- //arr1 -->
+    <!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+
+
+<!-- //arr2 -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>Arrays use numbers to access its elements.</p>
+
+<p id="demo"></p>
+
+<script>
+var person = ["John", "Doe", 46];
+document.getElementById("demo").innerHTML = person[0];
+</script>
+
+</body>
+</html>
+
+<!-- //arr3 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+<p>The length property returns the length of an array.</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.length;
+</script>
+
+</body>
+</html>
+
+
+
+<!-- arr4 -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>JavaScript array elements are accesses using numeric indexes (starting from 0).</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var last = fruits[fruits.length-1];
+document.getElementById("demo").innerHTML = last;
+</script>
+
+</body>
+</html>
+
+<!-- arr5 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>If you use a named index when accessing an array, JavaScript will redefine the array to a standard object, and some array methods and properties will produce undefined or incorrect results.</p>
+
+<p id="demo"></p>
+
+<script>
+var person = [];
+person["firstName"] = "John";
+person["lastName"] = "Doe";
+person["age"] = 46; 
+document.getElementById("demo").innerHTML =
+person[0] + " " + person.length;
+</script>
+
+</body>
+</html>
+
+
+<!-- STR 1 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+
+<script>
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+</script>
+
+</body>
+</html>
+
+<!-- STR2 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The search() method returns the position of the first occurrence of a specified text in a string:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
+</body>
+</html>
+
+<!-- STR 3 -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">Please visit Microsoft!</p>
+
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var txt = str.replace("Microsoft","Google");
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
+
+
+<!-- STR 4 -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The substr() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7,6);
+document.getElementById("demo").innerHTML = res;
+</script>
+
+</body>
+</html>
+
+
+<!-- STR 5 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7,13);
+document.getElementById("demo").innerHTML = res; 
+</script>
+
+</body>
+</html>
+
+
+<!-- Q1 -->
+
+<html>
+    
+<head>
+
+</head>
+    <body>
+        <script> 
+            var ch = '2'; 
+            console.log(ch); 
+            </script>
+    </body>    
+    
+    
+</html>
